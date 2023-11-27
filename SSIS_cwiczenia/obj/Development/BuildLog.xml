@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>SSIS_cwiczenia</Name>
-    <LastWriteTime>2023-11-26T19:43:13.5485583Z</LastWriteTime>
+    <LastWriteTime>2023-11-27T19:18:54.1313637Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -13,7 +13,12 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Data Profiling Task.dtsx</Name>
-      <LastWriteTime>2023-11-26T19:55:17.881999Z</LastWriteTime>
+      <LastWriteTime>2023-11-26T19:55:44.5162896Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Srodowiska_environments.dtsx</Name>
+      <LastWriteTime>2023-11-27T19:18:54.1593622Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

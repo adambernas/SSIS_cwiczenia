@@ -26,12 +26,13 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-GVBA5IE</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAACvi8zjMtI4nfiIbZ0NG6oauZGDf81W7sbwLZ6Ryr+vxAAAAAAOgAAAAAIAACAAAACGGUqINMy6ttG226/kH6u9hAMtJjWSWNGHDMAY7NOdepAAAABUbHg5rR8BsC8bulH5bARzDr9DmUnd1nDGCu+SrVvNDNPZnHZ/YXA5HYkzLeF5pryEBo4cVaJ0VzWTPLAKRl+m+zMLqD2AfuvtfNI9ndVwP1tRwQ/9+DWTTUJPt79rXe2lxZt1EnHEOb+nFesxJJt292vsPZU2sRutDGi0hWtKPtw0Qw84Tyh0Bj0tu9pcPvhAAAAAz7z8XZpZx5V9VS16Mvt/+aL+84sJm0XfIe6/Xeb4H87DSGHsMsf6CNdt6iTNd4AgLCT0wquJcJISwSdNZbvwVw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAADfEjolZHd6bqHh3hSbbu4q/zw8Trn+siFsDkIIYu/iDAAAAAAOgAAAAAIAACAAAABp8BjmyvbcF4q/oKcOuYqiFf1HnavGery0myilTsw2mJAAAADUJxiFgpiLQaiTYtKWwM7X29MapZdEs6OgtUtRav6PQhmhzqrV9VK0jxytqXUzMJTrZjpgxyiogweqPZGOGM76ykIW/DvfZamrAInqU3y5WTfVoFUIKzxHMGL+HGqB4bi0/+QTdugZrMYfJQynfUHldOpVOl4xjO3U7LeJuVghuHf3MU8+kS0UOMK083hZbkpAAAAA0DGyWaGl4hToHgsQ0g5jJkk0CYsS9MDk3u62gkFrasqdXctEvdSWyPqx89qXOtqs2FsYf8S9Psbhr8CAE2lCuw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="Execute_SQL_Task.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Data Profiling Task.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Srodowiska_environments.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="AdventureWorks2017.conmgr" />
@@ -64,7 +65,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=AdventureWorks2017;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-{124D0A79-B719-490E-A6FD-96D5CFA348E7}DESKTOP-GVBA5IE.AdventureWorks2017;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=Localhost;Initial Catalog=AdventureWorks2017;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-{124D0A79-B719-490E-A6FD-96D5CFA348E7}DESKTOP-GVBA5IE.AdventureWorks2017;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -157,21 +158,6 @@
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.AdventureWorks2017.ServerName">
-              <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="CreationName">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="Description">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">localhost</SSIS:Property>
-                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
-              </SSIS:Properties>
-            </SSIS:Parameter>
             <SSIS:Parameter SSIS:Name="CM.AdventureWorks2017.UserName">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
@@ -211,10 +197,10 @@
                 <SSIS:Property SSIS:Name="Name">Data Profiling Task</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">11</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">12</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{311A07E1-E5C6-4D50-9F3C-D5567DBB2E74}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{6C66E5EA-2135-49A2-AFF6-E976D4CC6382}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -400,6 +386,23 @@
                   </SSIS:Properties>
                 </SSIS:Parameter>
               </SSIS:Parameters>
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Srodowiska_environments.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{8F173A8E-2398-4085-99E4-6C7313EB24A7}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Srodowiska_environments</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">4</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{6E8736DD-12BE-4515-A14E-D99EA08423DE}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
             </SSIS:PackageMetaData>
           </SSIS:PackageInfo>
         </SSIS:DeploymentInfo>
