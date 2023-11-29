@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-GVBA5IE</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAAAERBQ1NmGKR/BaHpi5wCKAk8NTdPLEl+ioH8+JFpEk7QAAAAAOgAAAAAIAACAAAABcSaSaPTQkRfYRRiVT3rh77bnb48p8TqK2AsiziTjIiJAAAAA8PBUR9POTJXVoTui3UrrVbOk1iTir7mkNp9H66KbKtXXlSGYrCuRM+bLfbmievo7iAMDL9Lunu0+PC4Uf0P2MsAn0daU1vLipqDVSfjlRkaKWuN5gyvb08ii0EGDzxrkxHuAvnphNTXBRtbMF8wubWoWz1vzc91JWVIItkfJkOIi+uCtzkhM8UC4Jkcg2Q4JAAAAAoGDubHWcXToLof4mBj51jmq6flK1eh6Xougmpf+RUj49pold/ZT8OTABLhgjy6KEQ+sTLYDhjHobpOTzOWZX+w==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAAAtiOFgCgHgWgFRCqP8bGhEkwPt6MtRT6CcfJQNHROjaAAAAAAOgAAAAAIAACAAAABlRfkdNN4v/lVjCVZGqVKRnHJWzkv8QTb7r/yBIB7l75AAAAB6mSbtWYiGccWrHaA/mijzw18rcg/0Pv/Ju+PMAAIIbF2dbM7ucpR6sK/vDwG59XABBADOEdkCS2lhAa7XN2/4TbF/dPY9BTodCuuJ9MXjfSDyr+0YZlxTvJojBbfPUg7kIqtTOW9Y6JKhJhMZ5AJntDQiMunLlYHn4Ok8IiX+Mx7uay0ezQEoB9ICEuWqLSlAAAAAhAaTrcV20nfgMDcU2xR7o1PO67Nx3bJSEM4T3G9/WENGHKi79BK1WDPO4X6zOxfzV9vy2NExFPmDr1kbB2cS2g==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -34,6 +34,7 @@
           <SSIS:Package SSIS:Name="Data Profiling Task.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Dynamiczny_serwer.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="For Loop Container.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Row Count.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="AdventureWorks2017.conmgr" />
@@ -411,10 +412,27 @@
                 <SSIS:Property SSIS:Name="Name">For Loop Container</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">16</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{BBB1DCB1-4656-4455-9834-0160681587EE}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{183C12BE-DBEF-49CD-9472-1E6AD3666D0D}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Row Count.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{0FC8C6FB-C750-4727-9F1C-35407D062C27}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Row Count</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">6</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{E6331306-FCE1-4C56-AD0C-388E63CC5435}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
