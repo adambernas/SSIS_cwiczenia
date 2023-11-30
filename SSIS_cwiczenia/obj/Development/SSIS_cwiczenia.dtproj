@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-GVBA5IE</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAAAtiOFgCgHgWgFRCqP8bGhEkwPt6MtRT6CcfJQNHROjaAAAAAAOgAAAAAIAACAAAABlRfkdNN4v/lVjCVZGqVKRnHJWzkv8QTb7r/yBIB7l75AAAAB6mSbtWYiGccWrHaA/mijzw18rcg/0Pv/Ju+PMAAIIbF2dbM7ucpR6sK/vDwG59XABBADOEdkCS2lhAa7XN2/4TbF/dPY9BTodCuuJ9MXjfSDyr+0YZlxTvJojBbfPUg7kIqtTOW9Y6JKhJhMZ5AJntDQiMunLlYHn4Ok8IiX+Mx7uay0ezQEoB9ICEuWqLSlAAAAAhAaTrcV20nfgMDcU2xR7o1PO67Nx3bJSEM4T3G9/WENGHKi79BK1WDPO4X6zOxfzV9vy2NExFPmDr1kbB2cS2g==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAADK9wEzysZtTPwLVdkm6ZIb39j9uKZPCSoYJ8tLhUCcXwAAAAAOgAAAAAIAACAAAABl8vJCWHeCPVj+CmYVJIrsS4qLqcCnvb3nmEPCDsQs4ZAAAACWbyp2czWDmunutcfbFQSeRWD41PQBbDSoNWNYeEDjHGBacEa0bFlvfWMTmtVbY1Y+kZ6uir1MhMzN8UzGI421MqD1c12+4w09aeGC22fRiSfhg4UC3P/YSlFJbyV6E0Teqa2pusnCR+q6b4bKudpwO2Q0gw6t2bO+7IZ21HGnCbolwFVEYItYznFfleqVxZBAAAAAis5xvvOoXamxMhCK/gibgVRe9z06DKi+VJawwTsWSW4ZBAA5cqvzhI2+gj2VNxqxm5xEG846WKbqfLJttj4X4Q==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -35,6 +35,7 @@
           <SSIS:Package SSIS:Name="Dynamiczny_serwer.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="For Loop Container.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Row Count.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Row Sampling_Percentage Sampling.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="AdventureWorks2017.conmgr" />
@@ -429,10 +430,27 @@
                 <SSIS:Property SSIS:Name="Name">Row Count</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">6</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">7</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E6331306-FCE1-4C56-AD0C-388E63CC5435}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{68C7E416-0CD7-49F5-9608-0B64D15E4C61}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Row Sampling_Percentage Sampling.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{5DBD43FB-D3D1-446F-9B94-2F10394BD724}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Row Sampling_Percentage Sampling</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">10</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{7856C0EE-33B9-4212-944A-C94C14B10590}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
