@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-GVBA5IE</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAADK9wEzysZtTPwLVdkm6ZIb39j9uKZPCSoYJ8tLhUCcXwAAAAAOgAAAAAIAACAAAABl8vJCWHeCPVj+CmYVJIrsS4qLqcCnvb3nmEPCDsQs4ZAAAACWbyp2czWDmunutcfbFQSeRWD41PQBbDSoNWNYeEDjHGBacEa0bFlvfWMTmtVbY1Y+kZ6uir1MhMzN8UzGI421MqD1c12+4w09aeGC22fRiSfhg4UC3P/YSlFJbyV6E0Teqa2pusnCR+q6b4bKudpwO2Q0gw6t2bO+7IZ21HGnCbolwFVEYItYznFfleqVxZBAAAAAis5xvvOoXamxMhCK/gibgVRe9z06DKi+VJawwTsWSW4ZBAA5cqvzhI2+gj2VNxqxm5xEG846WKbqfLJttj4X4Q==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAADroGcFYK9d0hx0ODUpL+iY88MFEW5gYjcVXgjYFEEQkwAAAAAOgAAAAAIAACAAAAAEkDgknRl3puNVbsC0bH09Kqa3e3GPq13ty/mKbwrAGZAAAACGE1wr2mRlXur8N6VbyNkryce3w3dilWnVcxThTaI75v8KmCZGuczSF3H4eNgZlZgSbAwVYf2TUo5cY+mvYDdBNYGFPnNoQ6HNYXR1fc6tFDGARQCmWUiQ1MotohxJe0IbQcasCgYOny8WXWAGL8mIdsaYOnZ6nVf0LR74TOIumpzjz4ZGf4l6CdP4nmZ0ZTVAAAAA5uW/9IZQcY02q6/+BFm+L3gPPCnvv4KNXnqK2xgjY59J/DeDX5yxbqNYSi5EvnDj+LpKiVFHROGl7onvR1+ghQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -36,6 +36,7 @@
           <SSIS:Package SSIS:Name="For Loop Container.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Row Count.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Row Sampling_Percentage Sampling.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Conditional Split.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="AdventureWorks2017.conmgr" />
@@ -430,10 +431,10 @@
                 <SSIS:Property SSIS:Name="Name">Row Count</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">7</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">3</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{68C7E416-0CD7-49F5-9608-0B64D15E4C61}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{76E35E97-77BA-4448-8896-F1320B41C17C}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -451,6 +452,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{7856C0EE-33B9-4212-944A-C94C14B10590}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Conditional Split.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{BAE8EEA4-BF70-459D-B349-44C3D41A5A4E}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Conditional Split</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">5</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{AFB7F076-9176-4E47-88F6-F70252FBDB6A}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>

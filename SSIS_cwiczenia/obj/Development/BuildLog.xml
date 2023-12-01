@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>SSIS_cwiczenia</Name>
-    <LastWriteTime>2023-11-30T18:51:27.349979Z</LastWriteTime>
+    <LastWriteTime>2023-11-30T20:08:11.7405728Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -33,7 +33,12 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Row Sampling_Percentage Sampling.dtsx</Name>
-      <LastWriteTime>2023-11-30T19:45:45.6998867Z</LastWriteTime>
+      <LastWriteTime>2023-11-30T19:47:32.2202255Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Conditional Split.dtsx</Name>
+      <LastWriteTime>2023-11-30T20:08:50.1284798Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
