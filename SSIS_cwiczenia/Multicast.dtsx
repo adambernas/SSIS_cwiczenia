@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Multicast"
   DTS:PackageType="5"
-  DTS:VersionBuild="23"
-  DTS:VersionGUID="{590A2CD2-F276-4EA2-9ABA-37550F96B876}">
+  DTS:VersionBuild="25"
+  DTS:VersionGUID="{4D28B270-048A-4AF7-B749-A9ADC00E4011}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -215,6 +215,10 @@
                       dataType="wstr"
                       length="50"
                       name="Name" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Countries_Copy.Inputs[OLE DB Destination Input].ExternalColumns[Id]"
+                      dataType="i4"
+                      name="Id" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -801,7 +805,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="File System Task"
           DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="2">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <FileSystemData
@@ -818,7 +822,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="File System Task 1"
           DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="3">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <FileSystemData
@@ -835,7 +839,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="File System Task 2"
           DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData>
             <FileSystemData
@@ -894,6 +898,18 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="206,42"
+          Id="Package\Data Flow Task\Countries_Copy_Flat_File"
+          TopLeft="825,354" />
+        <NodeLayout
+          Size="203,42"
+          Id="Package\Data Flow Task\Countries_Copy_Excel_2"
+          TopLeft="595,351" />
+        <NodeLayout
+          Size="191,42"
+          Id="Package\Data Flow Task\Countries_Copy_Excel"
+          TopLeft="365,358" />
+        <NodeLayout
           Size="157,42"
           Id="Package\Data Flow Task\OLE DB Source"
           TopLeft="507,108" />
@@ -901,48 +917,6 @@
           Size="123,42"
           Id="Package\Data Flow Task\Multicast"
           TopLeft="542,220" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
-          TopLeft="585.5,150">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="18,70"
-              Start="0,0"
-              End="18,62.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31"
-                    Point2="0,35"
-                    Point3="4,35" />
-                  <mssgle:LineSegment
-                    End="14,35" />
-                  <mssgle:CubicBezierSegment
-                    Point1="14,35"
-                    Point2="18,35"
-                    Point3="18,39" />
-                  <mssgle:LineSegment
-                    End="18,62.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="191,42"
-          Id="Package\Data Flow Task\Countries_Copy_Excel"
-          TopLeft="380,353" />
-        <NodeLayout
-          Size="206,42"
-          Id="Package\Data Flow Task\Countries_Copy_Flat_File"
-          TopLeft="825,354" />
         <NodeLayout
           Size="158,42"
           Id="Package\Data Flow Task\Countries_Copy"
@@ -982,31 +956,65 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Multicast Output 2]"
-          TopLeft="592,262">
+          Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
+          TopLeft="585.5,150">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-116.5,91"
+              EndConnector="18,70"
               Start="0,0"
-              End="-116.5,83.5">
+              End="18,62.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,36.8071748878924" />
+                    End="0,31" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,36.8071748878924"
-                    Point2="0,40.8071748878924"
-                    Point3="-4,40.8071748878924" />
+                    Point1="0,31"
+                    Point2="0,35"
+                    Point3="4,35" />
                   <mssgle:LineSegment
-                    End="-112.5,40.8071748878924" />
+                    End="14,35" />
                   <mssgle:CubicBezierSegment
-                    Point1="-112.5,40.8071748878924"
-                    Point2="-116.5,40.8071748878924"
-                    Point3="-116.5,44.8071748878924" />
+                    Point1="14,35"
+                    Point2="18,35"
+                    Point3="18,39" />
                   <mssgle:LineSegment
-                    End="-116.5,83.5" />
+                    End="18,62.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Multicast Output 4]"
+          TopLeft="615,262">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="81.5,89"
+              Start="0,0"
+              End="81.5,81.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.9103139013453" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,35.9103139013453"
+                    Point2="0,39.9103139013453"
+                    Point3="4,39.9103139013453" />
+                  <mssgle:LineSegment
+                    End="77.5,39.9103139013453" />
+                  <mssgle:CubicBezierSegment
+                    Point1="77.5,39.9103139013453"
+                    Point2="81.5,39.9103139013453"
+                    Point3="81.5,43.9103139013453" />
+                  <mssgle:LineSegment
+                    End="81.5,81.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1049,36 +1057,32 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="203,42"
-          Id="Package\Data Flow Task\Countries_Copy_Excel_2"
-          TopLeft="595,351" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Multicast Output 4]"
-          TopLeft="615,262">
+          Id="Package\Data Flow Task.Paths[Multicast Output 2]"
+          TopLeft="592,262">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="81.5,89"
+              EndConnector="-131.5,96"
               Start="0,0"
-              End="81.5,81.5">
+              End="-131.5,88.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,35.9103139013453" />
+                    End="0,39.0493273542601" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,35.9103139013453"
-                    Point2="0,39.9103139013453"
-                    Point3="4,39.9103139013453" />
+                    Point1="0,39.0493273542601"
+                    Point2="0,43.0493273542601"
+                    Point3="-4,43.0493273542601" />
                   <mssgle:LineSegment
-                    End="77.5,39.9103139013453" />
+                    End="-127.5,43.0493273542601" />
                   <mssgle:CubicBezierSegment
-                    Point1="77.5,39.9103139013453"
-                    Point2="81.5,39.9103139013453"
-                    Point3="81.5,43.9103139013453" />
+                    Point1="-127.5,43.0493273542601"
+                    Point2="-131.5,43.0493273542601"
+                    Point3="-131.5,47.0493273542601" />
                   <mssgle:LineSegment
-                    End="81.5,81.5" />
+                    End="-131.5,88.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1117,7 +1121,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Countries_Copy">
+    design-time-name="Package\Data Flow Task\OLE DB Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1130,7 +1134,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\OLE DB Source">
+    design-time-name="Package\Data Flow Task\Countries_Copy">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

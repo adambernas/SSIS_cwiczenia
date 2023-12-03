@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>SSIS_cwiczenia</Name>
-    <LastWriteTime>2023-12-02T16:25:51.9040623Z</LastWriteTime>
+    <LastWriteTime>2023-12-03T14:24:29.0842271Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -43,12 +43,17 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Multicast.dtsx</Name>
-      <LastWriteTime>2023-12-02T16:25:03.2149847Z</LastWriteTime>
+      <LastWriteTime>2023-12-03T15:41:01.5772063Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Copy Column.dtsx</Name>
       <LastWriteTime>2023-12-02T16:34:49.2116794Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>OLE DB Command.dtsx</Name>
+      <LastWriteTime>2023-12-03T15:34:43.5181665Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
