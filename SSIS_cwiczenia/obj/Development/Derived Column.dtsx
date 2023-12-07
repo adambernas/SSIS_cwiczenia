@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Derived Column"
   DTS:PackageType="5"
-  DTS:VersionBuild="18"
-  DTS:VersionGUID="{BF05DDE5-F4E1-4F2E-A9EF-CF8F5BB9B4C5}">
+  DTS:VersionBuild="19"
+  DTS:VersionGUID="{974A1214-61C2-44F7-96DD-B5DF325D0683}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>

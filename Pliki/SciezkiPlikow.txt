@@ -1,0 +1,3 @@
+C:\Users\ja\Desktop\SSIS_cwiczenia\Pliki\Plik_testowy.xlsx
+C:\Users\ja\Desktop\SSIS_cwiczenia\Pliki\T1.txt
+C:\Users\ja\Desktop\SSIS_cwiczenia\Pliki\Test1.docx
