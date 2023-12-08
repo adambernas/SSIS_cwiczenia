@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-GVBA5IE</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAADsL1vvKzU7AeVQBRrAcJpbro/I6EZ7ugFaNh9xVm6bewAAAAAOgAAAAAIAACAAAAAFq3MNvfD6vmKgA71Tj3Bb3BJOjaGPwyzYIM1Sel+yXZAAAACwmNu32uMRpZDb+RcHHLVZyGogLYC9wVKShDtORh5QeYxs/U+OPKQHB5+DFZhBU5ZCBJFGstSzEKHg3MhJ3CzC11vWM+ct50/HQDxsoWYTeNNe+19ubf1L8xICVj7tT5akqqgVAE4rbovWmEIk6OSnDLTzQHuGmS62/sjrmU6vSbXg6Hmw1hXFpaK4CQDK9iVAAAAAWJ+GZ54IV2B8CGybYUQxAtW0djV/mfghGMKswp0DalFZeOcj9z1vBWQtHJfZNDbBugSXFTIOeXeDsG22ltt5Ig==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAADufqb+54cdIkRgvxv4PnTAIW4Yq5kJCfZpCHviaYShFgAAAAAOgAAAAAIAACAAAABKARjEZ7jajETH4QkXOJRkrp9ldcvOfqeLxTK2R+CB+ZAAAACYytEO6ItiTac0M2vIuFZn2stkjCMjuVVflTlZCuGPHnJaHOHmGW67+mFRrNzezpa9Md8JNo4P1Y1kJtS387gMSK5fXPr5aL0nbkm2iYfsEotWiuLkkDmLWvh9OucK8KAJvPLnpOLKpwnuvnMRua56qDULXI7HOVplab7+MHpu4jfkBEbfEKQmaJGMh1NVf61AAAAAniYf/bqVp4TuCYHmoBGiLTFxswqpXEtgXvC32eGnt+thCcsDqGdVW889NSsiUo1QJ/iHIQehtA0RfrwcSkicCQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -44,6 +44,7 @@
           <SSIS:Package SSIS:Name="Merge Join.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Derived Column.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Import i Export column.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Zmienne.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="AdventureWorks2017.conmgr" />
@@ -1578,8 +1579,6 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">
-                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1644,6 +1643,23 @@
                   </SSIS:Properties>
                 </SSIS:Parameter>
               </SSIS:Parameters>
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Zmienne.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{181A2465-6656-47F4-9221-788C508B41D5}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Zmienne</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">31</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{11F3CD4B-62E2-4EBA-BB2C-22A067076BBD}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
             </SSIS:PackageMetaData>
           </SSIS:PackageInfo>
         </SSIS:DeploymentInfo>
