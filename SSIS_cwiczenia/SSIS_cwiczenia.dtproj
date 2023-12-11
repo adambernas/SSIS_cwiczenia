@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-GVBA5IE</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAABpbMwSFWHNunTirK7f9zsZ+0BvBNXGA7ULK/XfQ+qeDAAAAAAOgAAAAAIAACAAAAB3Gxq65mGLTxf66Wgigkqj5TArHZW5HD0pubnEsQxZkZAAAAAKEf59wA8XZMezD2RbOODUEGjyJfL9KzqikKcT8ShXzT+xX1BT1KQX1eJzKa9Orb0jN8pI/+9xER0LWUHP8QATly1u5hUaEFps23SMnUU97HAcWM336i0zKCP5c3PmwdvC/ToFg2SisQ+wpzQdHjiiU2FvmG4VzrEpSYLstnR4sttesF2B4P19HIaoYiVzVEVAAAAAwBel7yks+5PcXyAMDhSNWPdGGN32QflpTEUYv3bJkYy1CmB9iPvqRw1SRXc3OssuxS37ZDHFJoNBPkYoHHqzqg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAAB0c6vGYWksQ6INAJwfZ8PyxIXnA2psswmlxlcSx6uq7gAAAAAOgAAAAAIAACAAAADJdC3u7ZOm33z6j50MXO/mHFpSbZ3VNLUcELMBJZ1p7JAAAADnAWMkJLeq3LKwnAgUrEb8gHa1CpDf4d98ny7yvcWiyoquyLiUaUoTanL5zpVtKmGDS2vxSHnRdpqBd3n/6z5ItpivshFLqZCip+FlyWN/ZDMJi2xkLa0KYXlb3hrgYgbcXENdeMf2ikC3ibVfDa83m2UZJ1vFnbX3LJyVWyZG88Vv4vQRiHXCJ/6MidxD50FAAAAAXk5zz0cKFk6Nn6N1YzAZy9PIemZvJa5nvaOlI+Q0d273otv52VM/31XfpWfFzy0lGb14ikaBq5pV9MM5zr5ihg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -47,6 +47,7 @@
           <SSIS:Package SSIS:Name="Zmienne.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Lookup.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Union All oraz Merge.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Character Map.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="AdventureWorks2017.conmgr" />
@@ -2036,6 +2037,23 @@
                   </SSIS:Properties>
                 </SSIS:Parameter>
               </SSIS:Parameters>
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Character Map.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{2E60A54F-B732-4753-9A3D-E9BA8E2EA226}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Character Map</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{08F1CF79-E5EC-4B92-B74B-4088111E3D88}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
             </SSIS:PackageMetaData>
           </SSIS:PackageInfo>
         </SSIS:DeploymentInfo>

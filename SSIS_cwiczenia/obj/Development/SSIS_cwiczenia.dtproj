@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-GVBA5IE</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAAA0mjmH66/Gly4LjfC4jw8lfO1vsC/Qh204ZyMIvCKq6QAAAAAOgAAAAAIAACAAAABN3gCaJZJDx8cJlUyVln1w0D4anTvxkwy3aHgeJVtCYJAAAADHVn7FYERiJuD3oiAvPHytl6XqLi44nsGwAq21GBlU3sY53PpvawuM82Z/5QIUSWtpnBuerteEbP6KlhHZiRMppymBGxhPRr78c2ReCNyKwaH1ybaSioqs5gp9zLlie5gNxbMI+7UPcM9JMWf/zvN47xnSfJwpLL+qvrtHTVYKjo7d/KH5QuHPeXWHsBwtUyFAAAAAp0NZZzE9KBtXwfQl6c9WO8qEUitgb55HUXnaRxylSxWDYdGcnjHAGeMSUTJj7WmbVNcHK98CstboAab3yjbZZg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAABiK21aBrfuIHOm3uODlqxLO3OIgtoIZVrgyC+hfenh6QAAAAAOgAAAAAIAACAAAABAtqyNG1DHMODRKIsNsjrvhK99d1CNBswYI+cde7tj9ZAAAAAEN/Gd3pNqcWtQvCBzbBPcQpcMINUzFUNDceKV6S5vLQ52TCEVYmRkOTUzPvhPBjmgQcnntfaqQ81C4lzgFmmB4egDfy3EOfch6ByEA6JLHqNMtziLco59vEx3DQNEx0tT6eJ2JjsaN3Sg33U/VqPEM59a07ZN2xLH2G5ZZSjoUV3F5Hg3RaM/LvV5y2pusOxAAAAAS5gP43dgu7gxHwlohbMeIRTvIWkR7Pb/fWT915IjoR3x+lIbxBoarR60kU5g8dsZlaoOyAusdeScQbSka13cJw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -47,6 +47,7 @@
           <SSIS:Package SSIS:Name="Zmienne.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Lookup.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Union All oraz Merge.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Character Map.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="AdventureWorks2017.conmgr" />
@@ -1669,10 +1670,10 @@
                 <SSIS:Property SSIS:Name="Name">Lookup</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">9</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">6</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{D832C66A-C6FD-4A89-B1F7-6384FDE1B0AF}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{44A7F392-0A98-433D-A433-96C063C8A521}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -2036,6 +2037,23 @@
                   </SSIS:Properties>
                 </SSIS:Parameter>
               </SSIS:Parameters>
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Character Map.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{2E60A54F-B732-4753-9A3D-E9BA8E2EA226}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Character Map</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">14</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{4F638DB4-0F77-43CC-AFAC-89F0DA507018}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
             </SSIS:PackageMetaData>
           </SSIS:PackageInfo>
         </SSIS:DeploymentInfo>

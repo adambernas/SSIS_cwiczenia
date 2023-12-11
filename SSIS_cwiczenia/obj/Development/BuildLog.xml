@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>SSIS_cwiczenia</Name>
-    <LastWriteTime>2023-12-09T20:00:15.5605087Z</LastWriteTime>
+    <LastWriteTime>2023-12-09T20:21:14.7007637Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -88,7 +88,12 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Union All oraz Merge.dtsx</Name>
-      <LastWriteTime>2023-12-09T20:02:13.5908083Z</LastWriteTime>
+      <LastWriteTime>2023-12-09T20:02:36.0708675Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Character Map.dtsx</Name>
+      <LastWriteTime>2023-12-09T20:34:53.0214408Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
