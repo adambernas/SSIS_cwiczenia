@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Character Map"
   DTS:PackageType="5"
-  DTS:VersionBuild="14"
-  DTS:VersionGUID="{4F638DB4-0F77-43CC-AFAC-89F0DA507018}">
+  DTS:VersionBuild="15"
+  DTS:VersionGUID="{222B5E4C-6A9F-48A5-A173-EB95D78B517C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -74,7 +74,7 @@
                       length="50"
                       lineageId="Package\Data Flow Task\Character Map.Outputs[Character Map Output].Columns[FirstName2]"
                       name="FirstName2"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           dataType="System.UInt32"
@@ -95,7 +95,7 @@
                       length="50"
                       lineageId="Package\Data Flow Task\Character Map.Outputs[Character Map Output].Columns[FirstName3]"
                       name="FirstName3"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           dataType="System.UInt32"
@@ -116,7 +116,7 @@
                       length="50"
                       lineageId="Package\Data Flow Task\Character Map.Outputs[Character Map Output].Columns[FirstName4]"
                       name="FirstName4"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           dataType="System.UInt32"
@@ -137,7 +137,7 @@
                       length="50"
                       lineageId="Package\Data Flow Task\Character Map.Outputs[Character Map Output].Columns[LastName2]"
                       name="LastName2"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           dataType="System.UInt32"
@@ -158,7 +158,7 @@
                       length="50"
                       lineageId="Package\Data Flow Task\Character Map.Outputs[Character Map Output].Columns[LastName3]"
                       name="LastName3"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           dataType="System.UInt32"
@@ -179,7 +179,7 @@
                       length="50"
                       lineageId="Package\Data Flow Task\Character Map.Outputs[Character Map Output].Columns[LastName4]"
                       name="LastName4"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           dataType="System.UInt32"
@@ -520,40 +520,40 @@
         <NodeLayout
           Size="132,42"
           Id="Package\Data Flow Task\Multicast 1"
-          TopLeft="331,309" />
+          TopLeft="336,323" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Character Map Error Output]"
           TopLeft="330,239">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="67,70"
+              EndConnector="72,84"
               Start="0,0"
-              End="67,62.5">
+              End="72,76.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.4375" />
+                    End="0,30.125" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,24.4375"
-                    Point2="0,28.4375"
-                    Point3="4,28.4375" />
+                    Point1="0,30.125"
+                    Point2="0,34.125"
+                    Point3="4,34.125" />
                   <mssgle:LineSegment
-                    End="63,28.4375" />
+                    End="68,34.125" />
                   <mssgle:CubicBezierSegment
-                    Point1="63,28.4375"
-                    Point2="67,28.4375"
-                    Point3="67,32.4375" />
+                    Point1="68,34.125"
+                    Point2="72,34.125"
+                    Point3="72,38.125" />
                   <mssgle:LineSegment
-                    End="67,62.5" />
+                    End="72,76.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-28.66890625,33.4375,124.3378125,11.609375"
+              BoundingBox="-34.8300390625,39.125,141.660078125,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>

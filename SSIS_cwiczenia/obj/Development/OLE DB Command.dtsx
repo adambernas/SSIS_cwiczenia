@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="OLE DB Command"
   DTS:PackageType="5"
-  DTS:VersionBuild="37"
-  DTS:VersionGUID="{FD1F65A1-31C2-49A2-A646-34D54B986ADC}">
+  DTS:VersionBuild="38"
+  DTS:VersionGUID="{C22B45D1-CB62-4CE8-8A08-0C74415A3F50}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -221,15 +221,6 @@ where CountryRegionCode = ?
                       lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[Name]"
                       name="Name"
                       truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[id]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[id]"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].Columns[id]"
-                      name="id"
-                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -243,10 +234,6 @@ where CountryRegionCode = ?
                       dataType="wstr"
                       length="50"
                       name="Name" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[id]"
-                      dataType="i4"
-                      name="id" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -266,11 +253,6 @@ where CountryRegionCode = ?
                       length="50"
                       lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Name]"
                       name="Name" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[id]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[id]"
-                      name="id" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
