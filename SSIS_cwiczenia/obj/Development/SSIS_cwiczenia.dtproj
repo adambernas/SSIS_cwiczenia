@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-GVBA5IE</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAADH30H9+TBLPjawoGWvJHQSb3bPu/K0/0BLfvjUwzh3HwAAAAAOgAAAAAIAACAAAABMGgp8Z+hKYktjoOWEdrJXO/ayff13LbmplP8S8GHTKZAAAAACETroV1ertrsPsAJYHo9w9VGSeTGwIc2WxrSAyUqX/UlsORk2gnkAqL9bx/M4eN7k02870uglFk51UJ9g0aD2wgaDEviQyevOwCC8LskdeTzg86g9gQoh6md5Dc3XCucxkzWatIn8qWdXl7Ov3ktQ9tudn+X/rvbIz64J+zWmshtGEuJ8OTwIJ/lSV64lK9FAAAAA+s8jtk/Krrj/yptqxTGzNKTKHvmu1Bk5+lZkuqqdLndy28odvr1qSP+spyXNZ34sri5FFSKEgmrs4fO810bHrw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgrO3/EI+3EGFps1AsqZVeAAAAAACAAAAAAAQZgAAAAEAACAAAABiv+CEdbiaHzXp2iioKLqFd4HU5Y/bTj1kOyR8EYNTqQAAAAAOgAAAAAIAACAAAACzCMKeD4NGbADyPXlBJiBQdHdViEB87jrjygIB/pAHepAAAAAMtvGoi3o0FwRF7tw/6R6b3PdyNTEI8Vin92ISv+dJQbYnl7V2SvhB6CIVP9+5q7+0crc1XudXz0tK5wnavtx2dmwIWKBXZUpwMeOhlFNkAqv0i25yeQM9Nhr5SNninWXUc5mvUHxC312K6PXC5vKj251rPS68zFT6HQDd2tno2OUzDvVRQMEgWKa9WJp8vHNAAAAA7eak2xSbe9Y4f9Onvd9rdLtezOgxsDSuMkmm+wfAtoir7uakD7W8AFQcvthw6V8+kLBbEhokU9ls9nSykDpMdQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -49,6 +49,7 @@
           <SSIS:Package SSIS:Name="Union All oraz Merge.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Character Map.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Data Conversion.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Fuzzy Lookup.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="AdventureWorks2017.conmgr" />
@@ -1048,10 +1049,10 @@
                 <SSIS:Property SSIS:Name="Name">OLE DB Command</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">38</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">37</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{C22B45D1-CB62-4CE8-8A08-0C74415A3F50}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{FD1F65A1-31C2-49A2-A646-34D54B986ADC}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -2045,10 +2046,10 @@
                 <SSIS:Property SSIS:Name="Name">Character Map</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">15</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{222B5E4C-6A9F-48A5-A173-EB95D78B517C}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{08F1CF79-E5EC-4B92-B74B-4088111E3D88}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -2205,6 +2206,23 @@
                   </SSIS:Properties>
                 </SSIS:Parameter>
               </SSIS:Parameters>
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Fuzzy Lookup.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{65B3E4D2-6C82-4287-AF85-D9FE2F69C762}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Fuzzy Lookup</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">10</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{B6357FF3-08AA-44B5-86A3-642E683F2D51}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
             </SSIS:PackageMetaData>
           </SSIS:PackageInfo>
         </SSIS:DeploymentInfo>

@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>SSIS_cwiczenia</Name>
-    <LastWriteTime>2023-12-09T22:10:05.3233399Z</LastWriteTime>
+    <LastWriteTime>2023-12-12T19:19:43.9268934Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -98,7 +98,12 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Data Conversion.dtsx</Name>
-      <LastWriteTime>2023-12-11T20:57:43.894537Z</LastWriteTime>
+      <LastWriteTime>2023-12-11T20:58:01.0234712Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Fuzzy Lookup.dtsx</Name>
+      <LastWriteTime>2023-12-12T19:31:14.7138013Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
