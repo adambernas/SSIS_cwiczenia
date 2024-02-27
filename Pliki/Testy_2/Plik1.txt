@@ -1,0 +1,4 @@
+Grupa, Imie, Nazwisko
+Plik_1, Jan, Kowalski
+Plik_1, Paweł, Nowak
+Plik_1, Rafał, Wężyk

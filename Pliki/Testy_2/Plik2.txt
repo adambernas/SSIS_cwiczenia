@@ -1,0 +1,4 @@
+Grupa, Imie, Nazwisko
+Plik_2, Anna, Jankowska
+Plik_2, Izabela, Skorubko
+Plik_2, Barbara, Jazda

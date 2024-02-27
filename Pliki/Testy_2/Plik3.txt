@@ -1,0 +1,4 @@
+Grupa, Imie, Nazwisko
+Plik_3, Janina, Opona
+Plik_3, Marian, Paździoch
+Plik_3, Sylwia, Zawadzka
