@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>SSIS_cwiczenia</Name>
-    <LastWriteTime>2023-12-12T20:17:13.2421431Z</LastWriteTime>
+    <LastWriteTime>2024-02-26T20:38:50.2704449Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -113,7 +113,17 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Sort.dtsx</Name>
-      <LastWriteTime>2023-12-12T20:22:01.5848028Z</LastWriteTime>
+      <LastWriteTime>2023-12-12T20:22:21.6073371Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Precedence constraints.dtsx</Name>
+      <LastWriteTime>2024-02-22T21:02:27.8586586Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Foreach Loop Container.dtsx</Name>
+      <LastWriteTime>2024-02-27T18:39:18.571901Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
