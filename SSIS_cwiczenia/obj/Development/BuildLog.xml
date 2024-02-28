@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>SSIS_cwiczenia</Name>
-    <LastWriteTime>2024-02-27T20:12:53.2090454Z</LastWriteTime>
+    <LastWriteTime>2024-02-28T19:50:14.7146377Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -128,7 +128,12 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Event Handlers.dtsx</Name>
-      <LastWriteTime>2024-02-27T20:29:09.7897032Z</LastWriteTime>
+      <LastWriteTime>2024-02-27T20:29:33.8495605Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Fuzzy Grouping.dtsx</Name>
+      <LastWriteTime>2024-02-28T21:31:50.6738314Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

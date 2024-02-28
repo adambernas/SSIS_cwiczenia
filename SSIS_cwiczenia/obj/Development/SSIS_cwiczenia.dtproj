@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-GVBA5IE</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAoxRairqJUqI8oxLur2WmQAAAAACAAAAAAAQZgAAAAEAACAAAAA/KOU3hcVsRYK08e/nWfJdNUsAGzZ6i8r5QqtB5Aop2QAAAAAOgAAAAAIAACAAAAAcmumF+KI7Fj1L2xSJy9RbgfB3z/gElXwZbugDH9Tn9JAAAACjSrqb+sHmy7R1Djf/VlHeBtg7iKeiOwP1XTtmNaLHJ2V7nQbkxpLUuUzIIDRL+gabOYmsj+dOXVIn6tojtS5AhJ1mMuhJPR/pALizjBFhdrIW5wmBKecD4V+Kxx9rM521UDFWfwox51OmHUsAiJuALPmrakFtDzZOC4ZXAaioOo7BW7pb0e+PBNVdi8sLPZhAAAAAUfhuV/926CTFE4XOutP0rcOW7+yV5f/N8TII9izWjcMvLDun+vgMe5Wc8TfxXqvTVqt7MAD9UY7lbkPVj3/rBw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAoxRairqJUqI8oxLur2WmQAAAAACAAAAAAAQZgAAAAEAACAAAAAI6MTCvYw289Oztnw85iTRYSsYEmw9PBq6AMEdbVV5OAAAAAAOgAAAAAIAACAAAAAPq0chhjoj0C58m12DZO0mG53/NN5wF/C4WZ6sSAIXTpAAAAD/uXdY9GrYF9YwOgyM7FN3Okg5j1AzSllR26h7REJszn8UzxwXTaa1b7MFReWY8APaGM+bPegAl7xWeyRHTOewTf8vmY3C8jeZzGvS2SZNeHim7hK3aPZN5WMcwxoOUTnrvmbPkDnUcHE1xIpeGGUNY0EN6Ee4ORyaGjAVThXZgoOUqF9HsV1DEaRBblL7tFxAAAAA/2Vn+sQrXMTi1EkCHXBxD2+aCnR5bYYXUrFGKmFri+XivDiZB0oDRUrLa/NQ2+WsizvP+Zarm0UN2UvS3pD2OQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -55,6 +55,7 @@
           <SSIS:Package SSIS:Name="Precedence constraints.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Foreach Loop Container.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Event Handlers.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Fuzzy Grouping.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="AdventureWorks2017.conmgr" />
@@ -2484,10 +2485,27 @@
                 <SSIS:Property SSIS:Name="Name">Package2</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">12</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">3</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{3BC4E37B-4F28-41DE-ADA3-B6C93673334E}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{AA61BEFA-9B14-4822-A212-F886BFB48EDF}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Fuzzy Grouping.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{66873A93-7704-4780-905C-DECD70AA5384}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Fuzzy Grouping</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">30</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{5C7E9EA5-42F5-42F1-BD17-112CC6EDBFE7}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
