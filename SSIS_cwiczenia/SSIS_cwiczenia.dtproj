@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-GVBA5IE</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAoxRairqJUqI8oxLur2WmQAAAAACAAAAAAAQZgAAAAEAACAAAAD+fVZd/4K0pTInbrW5NId5AqrTrHl5gu6ffC9QW/xDCAAAAAAOgAAAAAIAACAAAADCQyDxYxQqA0i3EcZhU+qUpIMxlhdD8XsjqW33KuAE5ZAAAAAJACOjV6HmuV60+H3OFec2Xtag9KE8rdfLi1KZ7kulfki29+DCiI0wzP/2N+zXdP+eI/fuRZJ4SdlgK9Vm6IZfZIzrJXzlFyH5lbCtRh1oy2RQAt3+0nAT5pGv49V9Q++JdpjOGQC1dAIgaHbyAeI7FHJ1oHVXoMBy1ZthJFBB6TXFpw1RuhxeUQr8ywzH2PNAAAAA70ivjeXv64UPnuG+JqEj5SXJmTnxDWu8QFhk0Jj97BrTkWvLw0VbbbZKSmJlHTuAql25GvFJGd9UtTAe2VoirQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAoxRairqJUqI8oxLur2WmQAAAAACAAAAAAAQZgAAAAEAACAAAABn7qxMVyhNKj8sFQBywICVpjAKwimpC/b0jp+TA8ZpnwAAAAAOgAAAAAIAACAAAACX+fUl/67jZY73jZMXqLeARbs0aNYhedfb/tDHkBLBUJAAAAD8RR/rqAcI5j+EMPyPywzib7BUgwe9zdXX2pXO7ek5CDCISBCo+HMSGj54WJ/PQ6LiqstT6npftRIm3VQ2S3o+e7rKGKDw8Gm1VpudYnd1iWzVduBWC8jLfi+hcP5PQisQ4g5IB6abyGh+nGzPCtvHHvAnNFT1O50H4j2tnlC9vTs/7iAIDQ92hzdi6x/x0fdAAAAAlFLP+u4vrptWpFcAstmCqFbGaIyB4ac9ABlB5boAkaw3JfKBJjgX8XinhVX1CxShqIStqLWrdi1fDh1c7VmA/Q==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -56,6 +56,7 @@
           <SSIS:Package SSIS:Name="Foreach Loop Container.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Event Handlers.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Fuzzy Grouping.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Cwiczenie Foreach Loop Container.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="AdventureWorks2017.conmgr" />
@@ -2512,6 +2513,39 @@
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Cwiczenie Foreach Loop Container.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{397BDCEA-A225-4463-964E-25EDD0D76B93}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Cwiczenie Foreach Loop Container</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">21</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{A9E107F8-12F6-4E63-BD45-B9B0F9B4C6E9}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters>
+                <SSIS:Parameter SSIS:Name="CM.Zrodlo_pliku.bcp.ConnectByProxy">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+              </SSIS:Parameters>
             </SSIS:PackageMetaData>
           </SSIS:PackageInfo>
         </SSIS:DeploymentInfo>
